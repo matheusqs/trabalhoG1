@@ -8,11 +8,11 @@
 		<version>2.2.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.trabalhog1</groupId>
-	<artifactId>projeto</artifactId>
+	<groupId>com.poo</groupId>
+	<artifactId>trabalhog1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>projeto</name>
-	<description>Demo project for Spring Boot</description>
+	<name>trabalhog1</name>
+	<description>Trabalho g1 para a disciplina POO</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -30,6 +30,12 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 			<exclusions>
@@ -38,6 +44,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.13.1</version>
 		</dependency>
 	</dependencies>
 
